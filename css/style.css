@@ -93,7 +93,7 @@ desktop-sidebar ul a:hover {
 .about-text {
   margin:1.8em 0 2.5em;
   font-family: 'Courier';
-  font-size:.5em;
+  font-size:.95em;
   letter-spacing:-0.05em;
 }
 
@@ -150,5 +150,6 @@ footer ul li a{
 footer li span {
   font-weight:var(--black-weight);
   font-size:var(--small-font-size);
+  color: yellowgreen;
   margin-left:0.7ch;
 }
