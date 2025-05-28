@@ -1,4 +1,10 @@
 
+/* BODY */
+
+body {
+  --main-bg-color: #dae6e1;
+  --main-bg-gradient: radial-gradient(#c1e0ca, #c2dde8, #e1e7d7);
+}
 
 /* HEADERS */
 
@@ -8,7 +14,6 @@ h1 {
   font-family: 'Courier';
   font-size:2em;
   letter-spacing:-0.05em;
- 	color:#e68a00;
 }
 
 /* NAV STYLES */
