@@ -2,8 +2,8 @@
 /* BODY */
 
 body {
-  bg-color: #dae6e1;
-  bg-gradient: radial-gradient(#c1e0ca, #c2dde8, #e1e7d7);
+  background-color:#dae6e1;
+  background-gradient: radial-gradient(#c1e0ca, #c2dde8, #e1e7d7);
 }
 
 a {
