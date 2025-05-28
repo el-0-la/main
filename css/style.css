@@ -22,7 +22,7 @@ desktop-sidebar ul {
   gap:1em;
 }
 
-.nav-link {
+.nav-link a {
 	font-family: sans-serif;
 	font-size: 3ems;	
 }
