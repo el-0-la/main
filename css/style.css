@@ -1,13 +1,29 @@
 
 
+/* HEADERS */
 
 
 
+/* NAV STYLES */
 
-// L I N K S //
+desktop-sidebar {
+  display:flex;
+  flex-direction:column;
+  flex-wrap:nowrap;
+  width:10ch;
+  padding-top:0.6em;
+}
+
+desktop-sidebar ul {
+  display:flex;
+  flex-direction:column;
+  list-style-type:none;
+  padding-left:0.5ch;
+  gap:1em;
+}
 
 .nav-link {
-	font-family: courier, slab, sans-serif;
+	font-family: sans-serif;
 	font-size: 3ems;	
 }
 
