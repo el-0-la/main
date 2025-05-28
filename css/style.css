@@ -14,9 +14,15 @@ a {
   text-underline-offset:2px;
 }
 
+main {
+  clear:both;
+  width:100%;
+  margin-bottom:6rem;
+}
+
 /* RESPONSIVE LAYOUT ELEMENTS: MOBILE HEADER, SIDEBAR, AND MENU */
 
-.container-flex {
+/*.container-flex {
   padding-top:1.6em;
   display:flex;
   flex-direction:row;
@@ -27,7 +33,7 @@ a {
 
  .container-flex {
     flex-direction:column;
-  }
+  } */
 
 /* HEADERS */
 
