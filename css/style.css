@@ -14,6 +14,21 @@ a {
   text-underline-offset:2px;
 }
 
+/* RESPONSIVE LAYOUT ELEMENTS: MOBILE HEADER, SIDEBAR, AND MENU */
+
+.container-flex {
+  padding-top:1.6em;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  gap:1.6em 4vw;
+  width:100%;
+}
+
+ .container-flex {
+    flex-direction:column;
+  }
+
 /* HEADERS */
 
 h1 {
@@ -71,6 +86,9 @@ desktop-sidebar ul a:hover {
 
 .about-text {
   margin:1.8em 0 2.5em;
+  font-family: 'Courier';
+  font-size:.5em;
+  letter-spacing:-0.05em;
 }
 
 .column-container {
@@ -78,6 +96,10 @@ desktop-sidebar ul a:hover {
   margin:0;
   background: hotpink;
 }
+
+ .container {
+    padding:0 min(3ch,10vw);
+  }
 
 /* FOOTER */
 
