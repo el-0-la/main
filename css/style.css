@@ -141,8 +141,16 @@ desktop-sidebar ul a:hover {
 }
 
  .container {
-    padding:0 min(3ch,10vw);
-  }
+  width:100%;
+  min-height:100%;
+  box-sizing:border-box;
+  padding:0 5vw;
+  margin:0;
+  position:absolute;
+  top:0;
+  background-image:var(--main-bg-gradient);
+  background-attachment:fixed;
+}
 
 /* FOOTER */
 
