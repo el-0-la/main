@@ -18,13 +18,13 @@ desktop-sidebar ul {
   display:flex;
   flex-direction:column;
   list-style-type:none;
-  padding-left:0.5ch;
+  padding-left:0.75ch;
   gap:1em;
 }
 
 .nav-link a {
 	font-family: sans-serif;
-	font-size: 3ems;	
+	font-size: 2ems;	
 }
 
 /*.nav-link a:hover {
