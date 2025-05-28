@@ -22,17 +22,22 @@ main {
 
 /* RESPONSIVE LAYOUT ELEMENTS: MOBILE HEADER, SIDEBAR, AND MENU */
 
-.container-flex {
+/*.container-flex {
   padding-top:1.6em;
   display:flex;
   flex-direction:row;
   flex-wrap:nowrap;
   gap:1.6em 4vw;
   width:100%;
-}
+}*/
 
  .container-flex {
-    flex-direction:column;
+ 	padding-top:1.6em;
+  display:flex;
+  flex-direction:column;
+  flex-wrap:nowrap;
+  gap:1.6em 4vw;
+  width:100%;
   } 
 
 /* HEADERS */
