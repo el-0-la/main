@@ -90,12 +90,49 @@ desktop-sidebar ul a:hover {
 
 /* ABOUT CONTAINER */
 
+
+.about-header {
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  gap:2.5rem;
+  margin:0 0 3em;
+}
+
+.about-header img {
+  border-radius:10px;
+  flex:1 1 0px;
+  mix-blend-mode:multiply;
+}
+
+.about-header-text {
+  flex:1 1 60px;
+}
+
+.about-header-text h2 {
+  font-weight:var(--bold-weight);
+  margin:0;
+  font-size:var(--h1-font-size);
+  letter-spacing:0.02em;
+}
+
+.about-header-text h3 {
+  margin:0;
+  line-height:1em;
+  padding:0;
+  height:2.4em;
+  font-size:var(--h2-font-size);
+  font-weight:var(--normal-weight);
+}
+
 .about-text {
   margin:1em;
   font-family: 'Courier';
   font-size:.95em;
   letter-spacing:-0.05em;
 }
+
+/* CONTAINER */
 
 .column-container {
 	width:720px;
