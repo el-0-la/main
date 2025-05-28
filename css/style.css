@@ -23,13 +23,13 @@ desktop-sidebar ul {
 }
 
 .nav-link a {
-	font-family: sans-serif;
-	font-size: 2ems;	
+	font-family: courier, slab;
+	font-size: 1ems;	
 }
 
-/*.nav-link a:hover {
+.nav-link a:hover {
   background-color: yellow;
-}*/
+}
 
 
 
