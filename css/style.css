@@ -22,8 +22,20 @@ desktop-sidebar ul {
   gap:1em;
 }
 
+desktop-sidebar ul li, mobile-nav ul li {
+  margin-bottom:0;
+  line-height:1em;
+}
+
+desktop-sidebar ul a, mobile-nav ul a {
+  text-decoration:none;
+  font-weight:var(--medium-weight);
+  font-size:1.1em;
+  letter-spacing:-0.05em;
+}
+
 .nav-link a {
-	font-family: courier, slab;
+	font-family: 'courier';
 	font-size: 1ems;	
 }
 
