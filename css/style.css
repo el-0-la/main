@@ -62,7 +62,7 @@ h3 {
 desktop-sidebar {
   display:flex;
   flex-direction:column;
-  flex-wrap:nowrap;
+  flex-wrap:wrap;
   width:10ch;
   padding-top:0.6em;
 }
@@ -94,7 +94,6 @@ desktop-sidebar ul a:hover {
 }
 
 /* ABOUT CONTAINER */
-
 
 .about-header {
   display:flex;
