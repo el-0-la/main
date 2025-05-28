@@ -22,7 +22,7 @@ main {
 
 /* RESPONSIVE LAYOUT ELEMENTS: MOBILE HEADER, SIDEBAR, AND MENU */
 
-/*.container-flex {
+.container-flex {
   padding-top:1.6em;
   display:flex;
   flex-direction:row;
@@ -33,7 +33,7 @@ main {
 
  .container-flex {
     flex-direction:column;
-  } */
+  } 
 
 /* HEADERS */
 
@@ -100,7 +100,7 @@ desktop-sidebar ul a:hover {
 .column-container {
 	width:720px;
   margin:0;
-  background: hotpink;
+  background: yellowgreen;
 }
 
  .container {
