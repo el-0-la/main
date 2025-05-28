@@ -2,8 +2,16 @@
 /* BODY */
 
 body {
-  --main-bg-color: #dae6e1;
-  --main-bg-gradient: radial-gradient(#c1e0ca, #c2dde8, #e1e7d7);
+  bg-color: #dae6e1;
+  bg-gradient: radial-gradient(#c1e0ca, #c2dde8, #e1e7d7);
+}
+
+a {
+  color:var(--link-color);
+  text-decoration:underline;
+  text-decoration-thickness:1.25px;
+  font-weight:var(--normal-weight);
+  text-underline-offset:2px;
 }
 
 /* HEADERS */
@@ -14,6 +22,13 @@ h1 {
   font-family: 'Courier';
   font-size:2em;
   letter-spacing:-0.05em;
+}
+
+h3 {
+	font-family: 'Courier';
+  font-size:1em;
+  letter-spacing:-0.05em;
+  margin-top:1.5em;
 }
 
 /* NAV STYLES */
@@ -50,6 +65,14 @@ desktop-sidebar ul a {
 
 desktop-sidebar ul a:hover {
 	color:#007399;
+}
+
+/* ABOUT CONTAINER */
+
+.column-container {
+	width:720px;
+  margin:0;
+  background: hotpink;
 }
 
 /* FOOTER */
