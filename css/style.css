@@ -69,6 +69,10 @@ desktop-sidebar ul a:hover {
 
 /* ABOUT CONTAINER */
 
+.about-text {
+  margin:1.8em 0 2.5em;
+}
+
 .column-container {
 	width:720px;
   margin:0;
