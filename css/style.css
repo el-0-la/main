@@ -2,7 +2,6 @@
 /* BODY */
 
 body {
-  background-color:#dae6e1;
   background-gradient: radial-gradient(#c1e0ca, #c2dde8, #e1e7d7);
 }
 
@@ -47,12 +46,20 @@ h1 {
   margin:0;
   font-family: 'Courier';
   font-size:2em;
+  letter-spacing:-0.1em;
+  line-height:-0.05em;
+}
+
+h2 {
+	font-family: 'Courier';
+  font-size:1.5em;
   letter-spacing:-0.05em;
+  margin-top:1.5em;
 }
 
 h3 {
 	font-family: 'Courier';
-  font-size:1em;
+  font-size:1.25em;
   letter-spacing:-0.05em;
   margin-top:1.5em;
 }
