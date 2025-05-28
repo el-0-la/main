@@ -5,6 +5,7 @@
 h1 {
   display:block;
   margin:0;
+  font-family: 'Courier';
   font-size:var(--h1-font-size);
 }
 
@@ -34,7 +35,7 @@ desktop-sidebar ul li, mobile-nav ul li {
 desktop-sidebar ul a, mobile-nav ul a {
   text-decoration:none;
   font-weight:var(--medium-weight);
-  font-family: sans-serif ;
-  font-size:1.5em;
+  font-family: 'Courier';
+  font-size:1em;
   letter-spacing:-0.05em;
 }
