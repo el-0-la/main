@@ -296,6 +296,7 @@ footer ul li {
 }
 
 footer ul li a{
+	font-size: 1.25em;
   text-decoration:none;
   display:flex;
   flex-wrap:no-wrap;
