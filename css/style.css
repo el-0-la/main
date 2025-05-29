@@ -66,24 +66,15 @@ h3 {
 
 /* NAV STYLES */
 
-/*desktop-sidebar {
+desktop-sidebar {
   display:flex;
   flex-direction:column;
   flex-wrap:nowrap;
   width:11ch;
   padding-top:0.6em;
-}*/
-
-desktop-sidebar {
-  margin: 0;
-  padding: 0;
-  width: 11ch;
-  position: fixed;
-  height: 100%;
-  overflow: auto;
 }
 
-/*desktop-sidebar ul {
+desktop-sidebar ul {
   display:flex;
   flex-direction:column;
   list-style-type:none;
@@ -94,7 +85,7 @@ desktop-sidebar {
 desktop-sidebar ul li {
   margin-bottom:0;
   line-height:1em;
-}*/
+}
 
 desktop-sidebar ul a {
   text-decoration:none;
