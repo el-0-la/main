@@ -66,12 +66,22 @@ h3 {
 
 /* NAV STYLES */
 
-desktop-sidebar {
+/*desktop-sidebar {
   display:flex;
   flex-direction:column;
   flex-wrap:nowrap;
   width:11ch;
   padding-top:0.6em;
+}*/
+
+desktop-sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
 }
 
 desktop-sidebar ul {
