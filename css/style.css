@@ -3,6 +3,7 @@
 
 body {
   background-gradient: radial-gradient(#c1e0ca, #c2dde8, #e1e7d7);
+  font-family: 'Courier';
 }
 
 a {
@@ -246,6 +247,17 @@ desktop-sidebar ul a:hover {
   color:var(--white);
   padding:3px 6px;
 }
+
+.art-project p.tags {
+  display:flex;
+  justify-content:center;
+  gap:0.5em;
+  font-size:var(--small-font-size);
+  font-weight:var(--medium-weight);
+}
+
+/* TAGS */
+
 
 /* FOOTER */
 
