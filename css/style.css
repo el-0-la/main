@@ -66,6 +66,61 @@ h3 {
 }
 
 /* NAV STYLES */
+/* RESPONSIVE LAYOUT ELEMENTS: MOBILE HEADER, SIDEBAR, AND MENU */
+
+.container-flex {
+  padding-top:1.6em;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  gap:1.6em 4vw;
+  width:100%;
+}
+
+mobile-header {
+  display:none;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  justify-content:space-between;
+  height:40px;
+  width:100%;
+  gap:1.5ch;
+}
+
+#menu {
+  display:none;
+}
+
+.mobile-nav-icon {
+  width:40px;
+  height:40px;
+  flex-shrink:0;
+  display:inline-block;
+}
+
+.mobile-nav-icon svg {
+  width:100%;
+  height:100%;
+}
+
+.mobile-nav-icon:hover {
+  color:unset;
+  opacity:0.5;
+}
+
+html:has(#menu:target) .mobile-nav-icon[href="#menu"] {
+  opacity:0.5;
+}
+
+html:has(#menu:not(:target)) .mobile-nav-icon[href="##"] {
+  opacity:0.5;
+}
+
+.close-button {
+  position:absolute;
+  top:1.6em;
+  right:min(3ch,10vw);
+}
 
 desktop-sidebar {
   display:flex;
