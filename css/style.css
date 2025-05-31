@@ -548,3 +548,16 @@ footer li span {
   font-size:var(--small-font-size);
   margin-left:0.7ch;
 }
+
+footer ul li img {
+  height:1.1rem;
+  width:1.1rem;
+}
+
+@media (hover:hover) {
+  footer ul li a:hover {
+    color:#000000;
+    filter:var(--svg-hover-filter);
+    text-decoration:none;
+  }
+}
