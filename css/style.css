@@ -6,6 +6,8 @@
 
 .desktop-menu {
 	margin:1em;
-	padding: auto;
+	padding: 1em;
 	background: peachpuff;
+	max-block-size: 5em;
+
 }
