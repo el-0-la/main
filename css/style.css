@@ -51,6 +51,8 @@
 //* FOOTER *//
 
 footer {
+	display: flex;
+  	flex-direction: row;
 	clear: both;
   	margin-top: 2rem;
   	padding: 10px 0px;
