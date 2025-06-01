@@ -57,6 +57,8 @@ main {
 //* FOOTER *//
 
 footer {
+	position:absolute;
+	bottom: 0;
 	clear: both;
   	margin-top: 2rem;
   	padding: 10px 0px;
