@@ -1,3 +1,7 @@
+body {
+	font-family: 'Courier';
+}
+
 .container {
 	width: 100%;
   	min-height: 100%;
@@ -46,6 +50,7 @@
   	background: plum;
   	margin:em;
 	padding:3em;
+	padding-bottom: 2.5rem;
 }
 
 main {
@@ -63,12 +68,13 @@ footer {
   	margin-top: 2rem;
   	padding: 10px 0px;
   	max-width: 720px;
+  	height: 2.5rem;
   }
 
 
 //* RESPONSIVE *//
 @media only screen and (max-width: 784px) {
-  #menu {
+ menu {
     display: block;
     position: absolute;
     width: 100%;
