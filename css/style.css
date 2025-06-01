@@ -15,12 +15,15 @@
 
 .desktop-menu li{
 	list-style:none;
+	background: lightcoral;
 }
 
 .about-content {
 	display: flex;
   	flex-direction: column;
   	background: plum;
+  	margin:0.5em;
+	padding:0.5em;
 }
 
 //*RESPONSIVE*//
