@@ -52,7 +52,7 @@
 
 footer {
 	display: flex;
-  	flex-direction: row;
+  	flex-direction: column;
 	clear: both;
   	margin-top: 2rem;
   	padding: 10px 0px;
