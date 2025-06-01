@@ -17,6 +17,12 @@
 	list-style:none;
 }
 
+.about-content {
+	display: flex;
+  	flex-direction: column;
+  	background: plum;
+}
+
 //*RESPONSIVE*//
 @media only screen and (max-width: 784px) {
   #menu {
