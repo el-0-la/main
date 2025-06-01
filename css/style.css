@@ -1,8 +1,28 @@
+.container {
+	width: 100%;
+  	min-height: 100%;
+  	box-sizing: border-box;
+  	padding: 0 5vw;
+  	margin: 0;
+  	position: absolute;
+  	top: 0;
+}
+
+
 .main-container {
 	margin:0em;
 	padding:0em;
 	width: 720px;
 	background: thistle;
+}
+
+.main-container-flex {
+	padding-top: 1.6em;
+  	display: flex;
+  	flex-direction: row;
+  	flex-wrap: nowrap;
+  	gap: 1.6em 4vw;
+  	width: 100%;
 }
 
 .desktop-menu {
