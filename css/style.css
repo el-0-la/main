@@ -48,6 +48,12 @@
 	padding:3em;
 }
 
+main {
+	clear: both;
+  	width: 100%;
+  	margin-bottom: 6rem;
+}
+
 //* FOOTER *//
 
 footer {
