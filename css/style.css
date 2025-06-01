@@ -42,7 +42,7 @@ body {
 .desktop-menu li{
 	list-style:none;
 	background: lightcoral;
-	line-height: .25em;
+	margin: .15em;
 }
 
 .about-content {
