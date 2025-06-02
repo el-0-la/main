@@ -71,8 +71,9 @@ footer {
 	bottom: 0;
 	clear: both;
   	margin-top: 2rem;
-  	margin-left:3em;
+  	margin-left:3rem;
   	max-width: 720px;
+  	color:teal;
   }
 
 
