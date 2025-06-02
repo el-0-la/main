@@ -70,9 +70,8 @@ main {
 	bottom: 0;
 	clear: both;
   	margin-top: 2rem;
-  	padding: 10px 0px;
   	max-width: 720px;
-  	height: 2.5rem;
+  	/*height: 2.5rem;*/
   }
 
 
