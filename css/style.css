@@ -66,14 +66,13 @@ main {
 
 //* FOOTER *//
 
-.foot {
+footer {
 	position:absolute;
 	bottom: 0;
 	clear: both;
   	margin-top: 2rem;
-  	padding-left:3em;
+  	margin-left:3em;
   	max-width: 720px;
-  	/*height: 2.5rem;*/
   }
 
 
