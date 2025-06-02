@@ -32,11 +32,15 @@ body {
 .desktop-menu {
 	margin:.25em;
 	padding: 2em;
-	background: peachpuff;
 	display: flex;
   	flex-direction: column;
   	flex-wrap: nowrap;
 
+}
+
+.desktop-menu a {
+	text-decoration: none;
+	colour:pink;
 }
 
 .desktop-menu li{
