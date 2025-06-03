@@ -2,6 +2,11 @@ body {
 	font-family: 'Courier';
 }
 
+h1 {
+	font-family: "Outfit", sans-serif;
+	font-weight: 600;
+}
+
 .container {
 	width: 100%;
   	min-height: 100%;
