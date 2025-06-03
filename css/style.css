@@ -161,6 +161,9 @@ footer ul li#rc-webring a:first-child{
 footer ul li#rc-webring span{
   margin-left:0;
 }
+.top {
+	height: 2rem;
+}
 
 footer ul li img {
   height:1.75rem;
