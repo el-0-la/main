@@ -43,9 +43,13 @@ body {
 	colour:pink;
 }
 
+.desktop-menu ul {
+	padding-left:0em;
+}
+
 .desktop-menu li{
 	list-style:none;
-	margin: .15em;
+	margin: .2em;
 }
 
 .about-content {
