@@ -6,7 +6,7 @@ h1 {
 	font-family: "Outfit", sans-serif;
 	font-weight: 700;
 	font-variant-caps: all-small-caps;
-	font-size: .5em;
+	font-size: .75em;
 	font-kerning: 2em;
 }
 
@@ -88,11 +88,11 @@ footer {
 	font-family: "Outfit", sans-serif;
 	font-weight: 300;
 	font-variant-caps: all-small-caps;
-	font-size: .25em;
+	font-size: .5em;
   }
 
   .foot-img {
-  	size:20%;
+  	size:50%;
   }
 
 
