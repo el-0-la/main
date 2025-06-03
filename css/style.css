@@ -4,7 +4,8 @@ body {
 
 h1 {
 	font-family: "Outfit", sans-serif;
-	font-weight: 600;
+	font-weight: 500;
+	font-variant-caps: all-small-caps;
 }
 
 .container {
