@@ -10,10 +10,6 @@ h1 {
 	color:#3F3C40;
 }
 
-a {
-	text-decoration: none;
-	color:#3F3C40;
-}
 
 
 .container {
@@ -194,12 +190,11 @@ main {
 	font-size: .75em;
   } */
 
-  footer {
-  clear:both;
-  margin-top:1rem;
-  padding:10px 0px;
-  max-width:720px;
-
+footer {
+	clear:both;
+  	margin-top:1rem;
+  	padding:10px 0px;
+  	max-width:720px;
 }
 
 footer p {
@@ -210,6 +205,15 @@ footer p {
   	font-size:var(--small-font-size);
   	border-bottom:2px dotted;
   	padding-bottom:0.5em;
+}
+
+footer a{
+	text-decoration: none;
+	color:#3F3C40;
+}
+
+footer a:hover{
+	color:pink;
 }
 
 footer ul {
