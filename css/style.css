@@ -78,7 +78,7 @@ main {
 
 /* FOOTER */
 
-footer {
+/*footer {
 	position:absolute;
 	bottom: 0;
 	clear: both;
@@ -89,7 +89,24 @@ footer {
 	font-weight: 400;
 	font-variant-caps: all-small-caps;
 	font-size: .75em;
-  }
+  } */
+
+  footer {
+  clear:both;
+  margin-top:2rem;
+  padding:10px 0px;
+  max-width:720px;
+}
+
+footer p {
+	font-family: "Outfit", sans-serif;
+	font-weight: 400;	
+  	font-style:italic;
+  	font-weight:var(--bold-weight);
+  	font-size:var(--small-font-size);
+  	border-bottom:2px dotted;
+  	padding-bottom:0.4em;
+}
 
   footer ul {
   list-style-type:none;
