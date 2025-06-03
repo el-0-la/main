@@ -113,27 +113,30 @@ footer p {
   	padding-bottom:0.4em;
 }
 
-  footer ul {
-  list-style-type:none;
-  padding:0;
-  margin:1.2em 0;
-  display:flex;
-  flex-wrap:wrap;
-  gap:0.6em;
-  align-items:baseline;
+footer ul {
+  	list-style-type:none;
+  	padding:0;
+  	margin:1.2em 0;
+  	display:flex;
+  	flex-wrap:wrap;
+  	gap:0.6em;
+  	align-items:baseline;
 }
 
 footer ul li {
-  float:left;
-  margin:0;
-  flex-basis:13ch;
+  	float:left;
+  	margin:0;
+  	flex-basis:13ch;
 }
 
 footer ul li a{
-  text-decoration:none;
-  display:flex;
-  flex-wrap:no-wrap;
-  align-items:center;
+  	text-decoration:none;
+  	display:flex;
+  	flex-wrap:no-wrap;
+  	align-items:center;
+  	font-family: "Outfit", sans-serif;
+	font-weight: 800;
+	font-variant-caps: all-small-caps;	
 }
 
 footer li span {
