@@ -10,6 +10,12 @@ h1 {
 	color:#3F3C40;
 }
 
+a {
+	text-decoration: none;
+	color:#3F3C40;
+}
+
+
 .container {
 	width: 100%;
   	min-height: 100%;
@@ -45,16 +51,7 @@ h1 {
   	font-weight: bold;
 }
 
-.desktop-menu a:hover {
-	color:#466739;
-}
-
-.desktop-menu a {
-	text-decoration: none;
-	color:#3F3C40;
-}
-
-.desktop-menu ul {
+.desktop-menu ul{
 	padding-left:0em;
 }
 
