@@ -266,7 +266,7 @@ footer ul li#rc-webring span{
   margin-left:0;
 }
 .top {
-	height: 2rem;
+	width: 4rem;
 }
 
 footer ul li img {
@@ -274,9 +274,6 @@ footer ul li img {
   width:1.7rem;
 }
 
-  /*.foot-img {
-  	size:75%;
-  }*/
 
 
 /* RESPONSIVE */
