@@ -67,6 +67,21 @@ header img{
 	height:4rem;
 }
 
+main {
+	clear: both;
+  	width: 100%;
+  	margin-bottom: 6rem;
+}
+
+.wide-container {
+  width:100%;
+  max-width:1200px;
+  margin:0;
+  flex-shrink:1;
+}
+
+/* ABOUT */
+
 .about-content {
 	display: flex;
   	flex-direction: column;
@@ -76,10 +91,26 @@ header img{
 	width: 720px;
 }
 
-main {
-	clear: both;
-  	width: 100%;
-  	margin-bottom: 6rem;
+/* BLOG */
+
+/* CERAMICS */
+
+/* DRAWING */
+
+/* ZINE */
+
+.zine-projects{
+ margin-top:35px;
+}
+
+.zine-project img {
+  border:solid 1.5px;
+  border-radius:5px;
+  object-fit:cover;
+  aspect-ratio:4/3 !important;
+  width:100%;
+  box-sizing:border-box;
+  height:auto;
 }
 
 /* FOOTER */
