@@ -7,6 +7,7 @@ h1 {
 	font-weight: 700;
 	font-variant-caps: all-small-caps;
 	font-size: .5em;
+	font-kerning: 2em;
 }
 
 .container {
@@ -84,7 +85,10 @@ footer {
   	margin-top: 2rem;
   	margin-left:3rem;
   	max-width: 720px;
-  	color:teal;
+	font-family: "Outfit", sans-serif;
+	font-weight: 300;
+	font-variant-caps: all-small-caps;
+	font-size: .25em;
   }
 
 
