@@ -188,6 +188,21 @@ form button {
 
 /* DRAWING */
 
+/* THANKS  */
+.thanks p {
+	text-align:center;
+  	margin:.2em 0 .5em 0;
+  	font-size:var(--small-font-size);
+  	}	
+
+.thanks img {
+  object-fit:cover;
+  aspect-ratio:4/3 !important;
+  width:100%;
+  box-sizing:border-box;
+  height:auto;
+}
+
 /* ZINE */
 
 .zine-projects{
