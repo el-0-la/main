@@ -11,6 +11,14 @@ h1 {
 	color:#3F3C40;
 }
 
+h2 {
+	font-family: "Outfit", sans-serif;
+	font-weight: 700;
+	font-variant-caps: all-small-caps;
+	font-size: 1.5em;
+	color:#3F3C40;
+}
+
 .container {
 	width: 100%;
   	min-height: 100%;
