@@ -39,21 +39,31 @@ h1 {
 }
 
 .desktop-menu {
-	margin:.25em;
-	padding: 2em;
-	display: flex;
-  	flex-direction: column;
-  	flex-wrap: nowrap;
-  	font-weight: bold;
+  display:flex;
+  flex-direction:column;
+  flex-wrap:nowrap;
+  width:10ch;
+  padding-top:0.6em;
 }
 
-.desktop-menu ul{
-	padding-left:0em;
+.desktop-menu ul {
+  display:flex;
+  flex-direction:column;
+  list-style-type:none;
+  padding-left:0.5ch;
+  gap:1em;
 }
 
-.desktop-menu li{
-	list-style:none;
-	margin: .2em;
+.desktop-menu ul li {
+  margin-bottom:0;
+  line-height:1em;
+}
+
+.desktop-menu ul a {
+  text-decoration:none;
+  font-weight:var(--medium-weight);
+  font-size:1.1em;
+  letter-spacing:-0.05em;
 }
 
 header img{
