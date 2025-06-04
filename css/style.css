@@ -301,7 +301,9 @@ footer ul li img {
   height:1.75rem;
   width:1.7rem;
 }
-
+svg:hover {
+  fill: red;
+}
 
 
 /* RESPONSIVE */
