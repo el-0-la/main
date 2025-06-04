@@ -48,7 +48,7 @@ h1 {
   flex-direction:column;
   list-style-type:none;
   padding-left:0.5ch;
-  gap:1em;
+  gap:.5em;
 }
 
 .desktop-menu ul li {
@@ -62,12 +62,12 @@ h1 {
   	font-weight: 700;
 	font-variant-caps: all-small-caps;
 	font-size: 1.2em;
-  	letter-spacing:-0.03em;
+  	letter-spacing:-0.025em;
 	color:#3F3C40;
 }
 
 .desktop-menu a:hover {
-	color:##1F6C9B;
+	color:#1F6C9B;
 }
 
 .desktop-menu a:visited {
