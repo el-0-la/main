@@ -41,7 +41,7 @@ h1 {
   flex-direction:column;
   flex-wrap:nowrap;
   width:11ch;
-  padding:2em;
+  padding:0.5em,2em,2em,2em;
 }
 
 .desktop-menu ul {
