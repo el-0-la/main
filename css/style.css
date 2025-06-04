@@ -119,6 +119,16 @@ main {
 
 /* CONTACT */
 
+form {
+  width:100%;
+  max-width:450px;
+  margin: 2em 0;
+}
+
+form label {
+  display:block;
+}
+
 form input {
   width: 100%;
   box-sizing: border-box;
@@ -130,6 +140,39 @@ form input {
   font-family: "Outfit", sans-serif;
   display: block;
 }
+
+form input:focus {
+  border:1.5px dotted;
+}
+
+form textarea {
+  width:100%;
+  box-sizing:border-box;
+  height:8em;
+  resize:none;
+  border:1.5px solid;
+  border-radius:5px;
+  margin:1em 0;
+  font-family: "Outfit", sans-serif;
+  font-size:1em;
+}
+
+form textarea:focus {
+  border:1.5px dotted;
+}
+
+form button {
+  color:#3F3C40;
+  border:1.5px solid;
+  border-radius:5px;
+  padding:5px 10px;
+  font-size:1em;
+  font-family: "Outfit", sans-serif;
+  background:none transparent;
+  cursor:pointer;
+  margin:0.5em 0 2em;
+}
+
 
 /* DRAWING */
 
