@@ -43,7 +43,7 @@ h1 {
   	display: flex;
   	flex-direction: row;
   	flex-wrap: nowrap;
-  	gap: 1.6em 4vw;
+  	gap: 1.5em 4vw;
   	width: 100%;
 }
 
@@ -51,8 +51,8 @@ h1 {
   display:flex;
   flex-direction:column;
   flex-wrap:nowrap;
-  width:10ch;
-  padding-top:0.6em;
+  width:11ch;
+  padding:2em;
 }
 
 .desktop-menu ul {
@@ -72,7 +72,7 @@ h1 {
   text-decoration:none;
   font-weight:var(--medium-weight);
   font-size:1.1em;
-  letter-spacing:-0.05em;
+  letter-spacing:-0.15em;
 }
 
 header img{
