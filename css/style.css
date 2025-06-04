@@ -10,8 +10,6 @@ h1 {
 	color:#3F3C40;
 }
 
-
-
 .container {
 	width: 100%;
   	min-height: 100%;
@@ -21,7 +19,6 @@ h1 {
   	position: absolute;
   	top: 0;
 }
-
 
 .main-container {
 	margin:0em;
@@ -60,10 +57,18 @@ h1 {
 }
 
 .desktop-menu ul a {
-  text-decoration:none;
-  font-weight:var(--medium-weight);
-  font-size:1.1em;
-  letter-spacing:-0.05em;
+  	text-decoration:none;
+  	font-weight: 700;
+	font-variant-caps: all-small-caps;
+	font-size: 1em;
+  	letter-spacing:-0.05em;
+}
+.desktop-menu a:hover {
+	color:#445336;
+}
+
+.desktop-menu a:visited {
+
 }
 
 header img{
