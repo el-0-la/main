@@ -10,15 +10,6 @@ h1 {
 	color:#3F3C40;
 }
 
-.bg {
-  width:100vw;
-  height:100vh;
-  display:block;
-  position:fixed;
-  top:0;
-  left:0;
-  z-index:-1;
-}
 
 
 .container {
@@ -77,6 +68,11 @@ h1 {
 
 header img{
 	height:4rem;
+}
+
+header{
+	z-index: 1000;
+  	position: relative;
 }
 
 main {
