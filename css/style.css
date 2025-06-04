@@ -68,14 +68,13 @@ h1 {
 	color:#3F3C40;
 }
 
+.desktop-menu a:visited {
+	color:#3F3C40;
+}
+
 .desktop-menu a:hover {
 	color:#678766;
 }
-
-/*.desktop-menu a:visited {
-	color:#3F3C40;
-}*/
-
 header img{
 	height:4rem;
 }
@@ -90,6 +89,11 @@ main {
   	width: 100%;
   	margin-bottom: 6rem;
 }
+
+/*.column-container {
+	width:720px;
+  	margin:0;
+}*/
 
 .wide-container {
   width:100%;
@@ -112,6 +116,8 @@ main {
 /* BLOG */
 
 /* CERAMICS */
+
+/* CONTACT */
 
 /* DRAWING */
 
