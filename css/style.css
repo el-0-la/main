@@ -29,6 +29,7 @@ h1 {
 
 .main-container-flex {
 	padding-top: 1.25em;
+	padding-left:1.25em;
   	display: flex;
   	flex-direction: row;
   	flex-wrap: nowrap;
@@ -41,7 +42,7 @@ h1 {
   flex-direction:column;
   flex-wrap:nowrap;
   width:11ch;
-  padding:0.5em,2em,2em,2em;
+  padding:0.5em;
 }
 
 .desktop-menu ul {
