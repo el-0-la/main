@@ -234,6 +234,10 @@ form button {
   	font-size:var(--body-font-size);
 }
 
+.zine-projects .title {
+  font-style:italic;
+}
+
 .zine-projects p {
   margin:1em 0 1em 0;
   font-size:var(--small-font-size);
@@ -249,10 +253,7 @@ form button {
   height:auto;
 }
 
-  .zine-project {
-    max-width:720px;
-  }
-}
+
 
 @media only screen and (max-width:784px) {
 .zine-project {
