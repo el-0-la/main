@@ -191,6 +191,7 @@ form button {
 /* THANKS  */
 .thanks p {
 	text-align:center;
+	padding-top: 1em;
   	margin:.2em 0 .5em 0;
   	font-size:var(--small-font-size);
   	}	
