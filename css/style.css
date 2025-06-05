@@ -305,7 +305,6 @@ photo-grid {
   display:grid;
   gap:1.2em;
   margin-bottom:1.6em;
-  
 }
 
 photo-grid.vertical, photo-grid.two-column, photo-grid.three-column {
@@ -314,6 +313,8 @@ photo-grid.vertical, photo-grid.two-column, photo-grid.three-column {
 
 photo-grid img {
   min-width:100%;
+  border:0;
+  border-radius: 0;
 }
 
 
