@@ -226,6 +226,19 @@ form button {
     gap:3vw 4vw;
   }
 
+  .zine-projects h3 {
+	font-family: "Outfit", sans-serif;
+	text-align: center;
+  	margin:0;
+  	text-transform:none;
+  	font-size:var(--body-font-size);
+}
+
+.zine-projects p {
+  margin:1em 0 1em 0;
+  font-size:var(--small-font-size);
+}
+
 .zine-project img {
   border:solid 1.5px;
   border-radius:10px;
