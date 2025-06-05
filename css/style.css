@@ -268,15 +268,13 @@ form button {
 
 .zine-project h3 {
 	font-family: "Outfit", sans-serif;
-  	text-align:center;
   	margin:0;
   	text-transform:none;
   	font-size:var(--body-font-size);
 }
 
 .zine-project p {
-  text-align:center;
-  margin:.2em 0 .5em 0;
+  margin:1em 0 1em 0;
   font-size:var(--small-font-size);
 }
 
