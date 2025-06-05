@@ -55,6 +55,8 @@ h2 {
   flex-wrap:nowrap;
   width:11ch;
   padding:0.5em;
+  z-index: 1; 
+  position: relative;
 }
 
 .desktop-menu ul {
@@ -135,10 +137,16 @@ form {
   width:100%;
   max-width:450px;
   margin: 2em 0;
+  position: relative;
+  z-index: 10;
 }
 
 form label {
   display:block;
+}
+
+form-control {
+
 }
 
 form input {
